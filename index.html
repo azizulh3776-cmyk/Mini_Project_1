@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Personal Profile</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container navbar">
+            <h1 class="logo">Your Name</h1>
+
+            <nav aria-label="Main navigation">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="about" class="about-section">
+            <div class="container about-content">
+                <div class="about-text">
+                    <h2>About Me</h2>
+
+                    <p>
+                        Hello! My name is Azizul Hoque. I am a student interested in
+                        programming, web development, and technology.
+                    </p>
+
+                    <p>
+                        I enjoy learning HTML, CSS, C++, and Java. My goal is to
+                        become a skilled software developer and build useful projects.
+                    </p>
+
+                    <a class="btn" href="#contact">Contact Me</a>
+                </div>
+
+                <div class="profile-image">
+                    <img src="image.jpg" alt="Profile photo of Your Name">
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2>My Skills</h2>
+
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <h3>HTML5</h3>
+                        <p>I can create structured web pages using semantic HTML elements.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>CSS3</h3>
+                        <p>I can style websites with colors, layouts, Flexbox, and media queries.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>C++</h3>
+                        <p>I can write basic programs using conditions, loops, functions, and arrays.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>Java</h3>
+                        <p>I am learning object-oriented programming and Java fundamentals.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2>My Projects</h2>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <h3>Student Result Calculator</h3>
+                        <p>
+                            A C++ program that takes marks as input, calculates the
+                            average, and shows a grade.
+                        </p>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>Personal Profile Website</h3>
+                        <p>
+                            A responsive one-page website created with HTML5 and CSS3
+                            to introduce myself, my skills, and my projects.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container contact-content">
+                <h2>Contact Me</h2>
+
+                <p>
+                    Email:
+                    <a href="mailto:abc123@xyz.com">abc123@xyz.com</a>
+                </p>
+
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your name"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            placeholder="Write your message"
+                            required
+                        ></textarea>
+                    </div>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Azizul Hoque. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
